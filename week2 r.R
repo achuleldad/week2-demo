@@ -22,3 +22,19 @@ typeof(sorted_Z)
 
 sorted_Z<- sort(z, decreasing = TRUE)
 sorted_Z
+
+1:30
+2*1:15
+30:1
+a<-seq(1:30)
+a
+seq(-5,5,by=2)->s3
+s3
+s4<-seq(length=51, from=-5, by=2)
+s4
+seq(-100,100,by=0.6)->s5
+s5
+y<-c(1,4,6,9)
+x<-seq(from=0,to=20,along.with=y)
+x
+
