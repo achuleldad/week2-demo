@@ -1,56 +1,67 @@
-x<- c(10.4,5.6,3.1,6.4,21.7)
-y<- c(x,0,x)
-z<-x*x+y+1
+ 
+x <-2
 x
+y <-5
 y
-z
-#find the min, max, range and product of z
-mean(z)
-max(z)
-range(z)
-prod(z)
-sum(z)
 
-#find the variance, 
-mean(z)
-var(z)
-sort(z)
-sorted_Z <- sort(z)
-sorted_Z
-class(sorted_Z)
-typeof(sorted_Z)
 
-sorted_Z<- sort(z, decreasing = TRUE)
-sorted_Z
-
-1:30
-2*1:15
-30:1
-a<-seq(1:30)
+a <- b <- 7
 a
-seq(-5,5,by=.2)->s3
-s3
-s4<-seq(length=51, from=-5, by=.2)
-s4
-seq(-100,100,by=0.6)->s5
-s5
-y<-c(1,4,6,9)
-x<-seq(from=0,to=20,along.with=y)
+b
+
+
+a
+rm (a)
+a
+
+
+x <- 5
+class(x)
+
+is.numeric(x) 
+
+
+i<-5L
+i
+is.integer(i)
+
+x1<- 4L
+class(x1)
+x2<- 2.8
+class(x2)
+x3<- x1*x2
+x3
+class(x3)
+
+x4 <- 2L
+x5 <- 5L
+
+x6<- x4/x5
+class(x6)
+
+x <- "data"
 x
+y <- factor("data")
+y
 
-x<-c(10.4,5.6,3.1,6.4,21.7)
-s6<-rep(x,times=5)
-s6
-s7<-rep(x, each=5)
-s7
+nchar (x)
+nchar ("hello")
+nchar (3)
+nchar (505)
+nchar(y)
 
-#logical vectors
-temp<- x>13
-temp
+date1 <-as.Date("2019-03-08")
+date1
+class(date1)
+as.numeric(date1)
 
-is.na(s3)
-z<-c(1:2,NA)
-result<- is.na(z)
-result
-x==NA
-is.na(x)
+date2 <- as.POSIXct("2019-03-08 09:00")
+class(date2)
+as.numeric (date2)
+
+TRUE * 5
+FALSE * 5
+
+k <- TRUE
+class(k)
+is.logical(k)
